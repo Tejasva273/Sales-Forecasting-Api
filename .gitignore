@@ -1,0 +1,38 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Logs
+logs/*.log
+
+# Data artifacts (keep the folders, ignore generated files)
+data/processed/*.csv
+data/processed/charts/*.png
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
